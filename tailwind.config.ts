@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      margin: {
+        "213px": "213px",
+      },
       colors: {
         hijau: "#3BB738",
-        kuning: "#C6F26A",
+        kuning: "#A0C92A",
+        secondary: "#A1A1A1",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
