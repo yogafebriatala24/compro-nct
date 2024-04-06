@@ -14,7 +14,7 @@ const ArticleThumbnail: React.FC<ArticleThumbnailProps> = ({
   title,
   date,
 }) => (
-  <div className="flex flex-col md:flex-row gap-4 items-center mb-5">
+  <div className="flex flex-col md:flex-row gap-4 items-center mb-0">
     <div className="w-40 h-28 relative flex-shrink-0">
       <Image src={src} alt={alt} layout="fill" className="rounded" />
     </div>

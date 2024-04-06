@@ -11,6 +11,10 @@ const config: Config = {
       margin: {
         "213px": "213px",
       },
+      height: {
+        "h-99": "404px",
+      },
+
       colors: {
         hijau: "#3BB738",
         kuning: "#A0C92A",

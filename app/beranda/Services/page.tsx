@@ -10,9 +10,9 @@ export default function Services() {
           Services
         </h2>
 
-        <div className="grid grid-cols-12 gap-5 mt-10">
-          <div className="col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
-            <Link href={""}>
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-5 mt-10">
+          <div className="col-span-1 md:col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
+            <Link href={""} legacyBehavior>
               <div className="flex gap-3">
                 <div className="">
                   <Image
@@ -38,8 +38,8 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          <div className="col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
-            <Link href={""}>
+          <div className="col-span-1 md:col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
+            <Link href={""} legacyBehavior>
               <div className="flex gap-3">
                 <div className="">
                   <Image
@@ -66,8 +66,8 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          <div className="col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
-            <Link href={""}>
+          <div className="col-span-1 md:col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
+            <Link href={""} legacyBehavior>
               <div className="flex gap-3">
                 <div className="">
                   <Image
@@ -94,8 +94,8 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          <div className="col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
-            <Link href={""}>
+          <div className="col-span-1 md:col-span-6 w-full bg-white shadow-lg rounded-lg px-6 py-6 hover:bg-gray-50">
+            <Link href={""} legacyBehavior>
               <div className="flex gap-3">
                 <div className="">
                   <Image
