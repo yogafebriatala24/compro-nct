@@ -7,8 +7,8 @@ type Repo = {
   stargazers_count: number;
 };
 
-async function Playlists({ slug }: { slug: string }) {
-  // Wait for the playlists
+async function GetArtikelDetail({ slug }: { slug: string }) {
+  // Wait for the GetArtikelDetail
   console.log("slug", slug);
   return (
     <>
@@ -26,7 +26,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     <>
       <div>Page</div>
       <Suspense>
-        <Playlists slug={params} />
+        <GetArtikelDetail slug={params} />
       </Suspense>
     </>
   );
