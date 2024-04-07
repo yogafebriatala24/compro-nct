@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <>
-      <div className="flex mt-10 mb-10">
-        <div className="self-center w-1/2 ">
+      <div className="flex mt-10 mb-10 relative">
+        <div className="self-center md:w-1/2 w-72 relative z-10">
           <h2 className="font-semibold text-3xl text-hijau">Contact Us?</h2>
           <Image
             src={"/icon/line.svg"}
@@ -59,7 +59,7 @@ export default function Contact() {
             </div>
           </form>
         </div>
-        <div className="w-1/2 self-center">
+        <div className="md:w-1/2 w-1/3 self-center absolute -right-12 bottom-0 md:static">
           <Image
             src={"/img/contact-ic.svg"}
             alt="why"
